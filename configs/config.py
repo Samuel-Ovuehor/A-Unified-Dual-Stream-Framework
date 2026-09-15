@@ -19,6 +19,9 @@ class CFG:
         "class_5",
     ]
 
+    # Base directory
+    BASE_DIR = r"#Replace with your actual Base directory"
+
     TRAIN_CSV = os.path.join(BASE_DIR, "traindata.csv") # Replace with your actual data path
     TEST_CSV  = os.path.join(BASE_DIR, "testdata.csv") # Replace with your actual data path
     
