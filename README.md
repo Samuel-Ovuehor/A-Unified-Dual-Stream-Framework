@@ -6,33 +6,17 @@ This repository contains the implementation accompanying the paper:
 
 The code provides the complete experimental pipeline used for model training, hyperparameter optimisation, validation, evaluation, visualisation, and final production-model training.
 
-## Repository Structure
+### System Workflow
+The overall pipeline illustrates how heterogeneous medical image modalities are handled, preprocessed, and routed through our dual-stream framework.
 
-```text
-.
-├── configs/
-│   └── config.py
-│
-├── data/
-│   └── README.md
-│
-├── src/
-│   ├── dataset.py
-│   ├── model.py
-│   ├── loss.py
-│   ├── sampler.py
-│   ├── optimisation.py
-│   ├── evaluation.py
-│   ├── visualisation.py
-│   └── train.py
-│
-├── scripts/
-│   └── run_experiment.py
-│
-├── requirements.txt
-├── LICENSE
-└── README.md
-```
+![System Workflow](workflow.png)
+
+### UCADS Model Architecture
+The structural design of the Unified Dual-Stream (UCADS) framework highlights the stream interactions and how class imbalances are handled during feature extraction.
+
+![UCADS Model Architecture](ucads.png)
+
+
 
 ## Method Overview
 
