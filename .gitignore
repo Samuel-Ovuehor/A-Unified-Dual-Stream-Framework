@@ -1,0 +1,23 @@
+├── configs/
+│   └── config.py
+│
+├── data/
+│   └── README.md
+│
+├── src/
+│   ├── dataset.py
+│   ├── model.py
+│   ├── loss.py
+│   ├── sampler.py
+│   ├── optimisation.py
+│   ├── evaluation.py
+│   ├── visualisation.py
+│   └── train.py
+│
+├── scripts/
+│   └── run_experiment.py
+│
+├── requirements.txt
+├── LICENSE
+└── README.md
+
