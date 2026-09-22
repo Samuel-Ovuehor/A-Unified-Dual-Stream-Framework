@@ -217,20 +217,18 @@ However, the numerical ECE results are not reported in the accompanying manuscri
 If you use this code or the associated methodology in your research, please cite the accompanying paper:
 
 ```text
-[INSERT FINAL PUBLISHED CITATION HERE]
+Ovuehor, S., El-Dalahmeh, A., Adeel, U., & Li, J. (2026). A Unified Dual-Stream Framework for Heterogeneous and Imbalanced Medical Image Classification. Computers, 15(9), 629.
 ```
 
 DOI:
 
 ```text
-[INSERT DOI HERE]
+https://doi.org/10.3390/computers15090629
 ```
 
-## Licence
+## License
+You are free to share and adapt the material, provided you give appropriate credit by citing our accompanying paper.
 
-See `LICENSE` for the terms governing use and redistribution of the code.
-
-Please also check the licence and usage conditions of any datasets, pretrained models, and third-party software used by this repository.
 
 ## Acknowledgement
 
