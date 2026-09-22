@@ -1,8 +1,8 @@
-# A Unified Calibration-Aware Dual-Stream Framework for Heterogeneous and Imbalanced Medical Image Classification
+This repository is still in progress......
+
+# A Unified Dual-Stream Framework for Heterogeneous and Imbalanced Medical Image Classification
 
 This repository contains the implementation accompanying the paper:
-
-**A Unified Calibration-Aware Dual-Stream Framework for Heterogeneous and Imbalanced Medical Image Classification**
 
 The code provides the complete experimental pipeline used for model training, hyperparameter optimisation, validation, evaluation, visualisation, and final production-model training.
 
@@ -11,8 +11,8 @@ The overall pipeline illustrates how heterogeneous medical image modalities are 
 
 ![System Workflow](workflow.png)
 
-### UCADS Model Architecture
-The structural design of the Unified Dual-Stream (UCADS) framework highlights the stream interactions and how class imbalances are handled during feature extraction.
+### A Unified Dual-Stream Framework Model Architecture
+The structural design of the Unified Dual-Stream framework highlights the stream interactions and how class imbalances are handled during feature extraction.
 
 ![UCADS Model Architecture](ucads.png)
 
