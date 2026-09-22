@@ -64,24 +64,12 @@ The exact package versions used for the experiments are provided in `requirement
 
 The code expects the dataset images and corresponding CSV files to be available locally.
 
-The dataset itself is **not included in this repository**. Please obtain the data from the appropriate official source and ensure that its terms of use permit research use.
+The dataset itself is **not included in this repository**. Please obtain the data from the appropriate official sources and ensure that its terms of use permit research use. 
 
-See:
+### Data Sources & Citations
+For a complete breakdown of the four clinical domains, imaging modalities, and baseline criteria used in this implementation, please refer to our accompanying publication:
+* **Paper DOI**: [https://doi.org/10.3390/computers15090629](https://doi.org/10.3390/computers15090629)
 
-```text
-data/README.md
-```
-
-for the expected dataset organisation and file structure.
-
-The training CSV should contain the fields required by the implementation, including:
-
-```text
-id_code
-diagnosis
-```
-
-The image files are loaded using the corresponding `id_code`.
 
 ## Configuration
 
